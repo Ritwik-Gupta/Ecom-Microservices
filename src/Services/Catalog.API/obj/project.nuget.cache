@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hdwiuzWtixR/nziTrxRsTpd47CrPmHSfd3eNhyrnW5Sfzw3Y21n9N5vgGUF6vDwWzJH5U9abKd48qTHh6pwvdA==",
+  "dgSpecHash": "tyJGQDmNqfs=",
   "success": true,
-  "projectFilePath": "/Users/ritwik.gupta/Desktop/Practice/EcomApp/src/Services/Catalog.API/Catalog.API.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\Projects\\.NET Projects\\.NET MIcroservices\\Ecom App\\src\\Services\\Catalog.API\\Catalog.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ritwi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
   "logs": []
 }

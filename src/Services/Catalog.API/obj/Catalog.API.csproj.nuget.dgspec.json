@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ritwik.gupta/Desktop/Practice/EcomApp/src/Services/Catalog.API/Catalog.API.csproj": {}
+    "F:\\Projects\\.NET Projects\\.NET MIcroservices\\Ecom App\\src\\Services\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "/Users/ritwik.gupta/Desktop/Practice/EcomApp/src/Services/Catalog.API/Catalog.API.csproj": {
+    "F:\\Projects\\.NET Projects\\.NET MIcroservices\\Ecom App\\src\\Services\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ritwik.gupta/Desktop/Practice/EcomApp/src/Services/Catalog.API/Catalog.API.csproj",
+        "projectUniqueName": "F:\\Projects\\.NET Projects\\.NET MIcroservices\\Ecom App\\src\\Services\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "/Users/ritwik.gupta/Desktop/Practice/EcomApp/src/Services/Catalog.API/Catalog.API.csproj",
-        "packagesPath": "/Users/ritwik.gupta/.nuget/packages/",
-        "outputPath": "/Users/ritwik.gupta/Desktop/Practice/EcomApp/src/Services/Catalog.API/obj/",
+        "projectPath": "F:\\Projects\\.NET Projects\\.NET MIcroservices\\Ecom App\\src\\Services\\Catalog.API\\Catalog.API.csproj",
+        "packagesPath": "C:\\Users\\ritwi\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\.NET Projects\\.NET MIcroservices\\Ecom App\\src\\Services\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ritwik.gupta/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ritwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,11 +35,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
