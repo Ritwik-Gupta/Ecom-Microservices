@@ -6,6 +6,7 @@
 /.idea
 /src/.vs
 /src/.idea
+./src/obj
 /src/Services/.idea
 /src/Services/Catalog.API/.vs
 /src/Services/Catalog.API/bin
